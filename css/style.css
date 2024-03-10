@@ -49,8 +49,13 @@ header {
     height: 10%;
     width: 100vw;
 }
+nav {
+    width: 100vw;
+    height: 5vh;
+}
 nav ul {
     background-color: var(--bg3);
+    width: 100vw;
     height: 5vh;
     list-style-type: none;
 }
