@@ -3,4 +3,6 @@
 header {
     background-color: var(--bg-c);
     color: var(--fg);
+    height: 10%;
+    width: 100vw;
 }
