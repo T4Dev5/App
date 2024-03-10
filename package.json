@@ -1,0 +1,25 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "My UI Starter Project",
+  "main": "index.html",
+  "scripts": {
+    "test": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t4d5/App.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "ui",
+    "js"
+  ],
+  "author": "Times4Dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/t4d5/App/issues"
+  },
+  "homepage": "https://github.com/t4d5/App#readme"
+}
