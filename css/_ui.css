@@ -2,7 +2,13 @@
 
 header {
     background-color: var(--bg-c);
-    color: var(--fg);
+    color: var(--fg1);
     height: 10%;
+    width: 100vw;
+}
+footer {
+    background-color: var(--bg2);
+    color: var(--fg2);
+    height: 7.5vh;
     width: 100vw;
 }

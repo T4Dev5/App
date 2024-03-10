@@ -1,11 +1,15 @@
 :root {
     --bg1: #dedede;
     --fg1: #222;
+    --bg2: #222;
+    --fg2: #dedede;
     --bg-c: #0af;
 }
 @media(prefers-color-scheme:dark) {
     :root {
         --bg1: #1f1f1f;
-        --fg1: #eee
+        --fg1: #eee;
+        --bg2: #dedede;
+        --fg2: #222;
     }
 }
