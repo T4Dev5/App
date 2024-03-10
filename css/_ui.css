@@ -1,1 +1,6 @@
 @import url("_var.css");
+
+header {
+    background-color: var(--bg-c);
+    color: var(--fg);
+}
