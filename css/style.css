@@ -35,6 +35,9 @@ body {
     overflow: hidden;
 }
 #container {
+    position: absolute;
+    top: 0;
+    left: 0;
     height: 100vh;
     width: 100vw;
     margin: 0;
@@ -46,8 +49,11 @@ body {
 header {
     background-color: var(--bg-c1);
     color: var(--fg1);
-    height: 10%;
+    height: 7.5vh;
     width: 100vw;
+    position: relative;
+    top: 0;
+    left: 0;
 }
 nav {
     width: 100vw;
@@ -68,9 +74,19 @@ nav ul li a {
     color: var(--fg3);
     text-decoration: none;
 }
+#container>main {
+    position: relative;
+    top: 22.5vh;
+    left: 0;
+    width: 100vw;
+    height: 80vh;
+}
 footer {
     background-color: var(--bg2);
     color: var(--fg2);
+    position: relative;
+    top: 92.5vh;
+    left: 0;
     height: 7.5vh;
     width: 100vw;
 }
