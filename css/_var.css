@@ -1,0 +1,10 @@
+:root {
+    --bg1: #dedede;
+    --fg1: #222;
+}
+@media(prefers-color-scheme:dark) {
+    :root {
+        --bg1: #1f1f1f;
+        --fg1: #eee
+    }
+}
