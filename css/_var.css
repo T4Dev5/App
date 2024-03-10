@@ -3,7 +3,9 @@
     --fg1: #222;
     --bg2: #222;
     --fg2: #dedede;
-    --bg-c: #0af;
+    --bg-c1: #0af;
+    --bg3: #999;
+    --fg3: #0ff;
 }
 @media(prefers-color-scheme:dark) {
     :root {
@@ -11,5 +13,7 @@
         --fg1: #eee;
         --bg2: #dedede;
         --fg2: #222;
+        --bg3: #007;
+        --fg3: #ff0;
     }
 }
