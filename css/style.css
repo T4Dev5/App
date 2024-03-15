@@ -1,7 +1,10 @@
 @import url("https://fonts.google.com/css2?family=playfair+Display");
+@import url("https://fonts.googleapis.com/css2?family=Inter");
 
 /* Vars.css */
 :root {
+    --serif: "Playfair Display";
+    --sans: "Inter";
     --bg1: #dedede;
     --fg1: #222;
     --bg2: #222;
@@ -27,7 +30,7 @@
 body {
     background-color: var(--bg1);
     color: var(--fg1);
-    font-family: "Playfair Display", serif;
+    font-family: var(--serif);
     width: 100vw;
     height: 100vh;
     margin: 0;
@@ -93,11 +96,11 @@ main {
     height: 80vh;
 }
 article h3 {
-    font-family: sans-serif;
     font-size: x-large;
     font: bold italic;
 }
 article p {
+    font-family: var(--sans);
     font-size: normal;
     text-indent: 10px;
 }
