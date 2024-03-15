@@ -51,6 +51,9 @@ body {
     color: var(--fg1);
     height: 7.5vh;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: 0;
     left: 0;
@@ -58,6 +61,9 @@ body {
 #container nav {
     width: 100vw;
     height: 5vh;
+    position: absolute;
+    top: 7.5vh;
+    left: 0;
 }
 #container nav ul {
     background-color: var(--bg3);
@@ -84,9 +90,12 @@ body {
 #container footer {
     background-color: var(--bg2);
     color: var(--fg2);
-    position: absolute;
-    top: 92.5vh;
-    left: 0;
     height: 7.5vh;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 7.5vh;
+    left: 0;
 }
