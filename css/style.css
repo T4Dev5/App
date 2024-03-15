@@ -100,7 +100,6 @@ article h3 {
 article p {
     font-size: normal;
     text-indent: 10px;
-    text-wrap: auto;
 }
 footer {
     background-color: var(--bg2);
