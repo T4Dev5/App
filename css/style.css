@@ -80,6 +80,10 @@ body {
     color: var(--fg3);
     text-decoration: none;
 }
+#container nav ul li a:hover, #container nav ul li a:focus {
+    color: var(--fg3);
+    text-decoration: none;
+}
 #container main {
     position: absolute;
     top: 22.5vh;
