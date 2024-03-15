@@ -51,7 +51,7 @@ header {
     color: var(--fg1);
     height: 7.5vh;
     width: 100vw;
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
 }
@@ -75,7 +75,7 @@ nav ul li a {
     text-decoration: none;
 }
 #container>main {
-    position: relative;
+    position: absolute;
     top: 22.5vh;
     left: 0;
     width: 100vw;
@@ -84,7 +84,7 @@ nav ul li a {
 footer {
     background-color: var(--bg2);
     color: var(--fg2);
-    position: relative;
+    position: absolute;
     top: 92.5vh;
     left: 0;
     height: 7.5vh;
