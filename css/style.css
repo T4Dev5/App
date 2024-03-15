@@ -46,7 +46,7 @@ body {
 }
 
 /* UI.css */
-#container header {
+header {
     background-color: var(--bg-c1);
     color: var(--fg1);
     height: 7.5vh;
@@ -58,40 +58,51 @@ body {
     top: 0;
     left: 0;
 }
-#container nav {
+nav {
     width: 100vw;
     height: 5vh;
     position: absolute;
     top: 7.5vh;
     left: 0;
 }
-#container nav ul {
+nav ul {
     background-color: var(--bg3);
     width: 100vw;
     height: 5vh;
     list-style-type: none;
 }
-#container nav ul li {
+nav ul li {
+    display: block;
     height: 4vh;
     width: 5vw;
-    border: 2px var(--fg3) solid;
+    text-align: center;
+    border-top: 1px var(--fg3) solid;
 }
-#container nav ul li a {
+nav ul li a {
     color: var(--fg3);
     text-decoration: none;
 }
-#container nav ul li a:hover, #container nav ul li a:focus {
+nav ul li a:hover {
     color: var(--fg3);
-    text-decoration: none;
+    display: block;
 }
-#container main {
+main {
     position: absolute;
     top: 22.5vh;
     left: 0;
     width: 100vw;
     height: 80vh;
 }
-#container footer {
+article h3 {
+    font-family: sans-serif;
+    font-size: x-large;
+    font: bold italic;
+}
+article p {
+    font-size: normal;
+    text-indent: 4px;
+}
+footer {
     background-color: var(--bg2);
     color: var(--fg2);
     height: 7.5vh;
@@ -100,6 +111,6 @@ body {
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: 7.5vh;
+    top: 92.5vh;
     left: 0;
 }
