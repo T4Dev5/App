@@ -104,6 +104,7 @@ main>article>p {
     font-family: var(--serif), serif;
     font-size: normal;
 }
+
 footer {
     background-color: var(--bg2);
     color: var(--fg2);
