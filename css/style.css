@@ -67,14 +67,9 @@ nav {
 }
 nav ul {
     background-color: var(--bg3);
-    width: 100vw;
-    height: 5vh;
     list-style-type: none;
-    display: flex;
-    flex-direction: column;
 }
 nav ul li {
-    display: block;
     height: 4vh;
     width: 5vw;
     text-align: center;
