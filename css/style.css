@@ -3,8 +3,7 @@
 
 /* Vars.css */
 :root {
-    --serif: "Playfair Display";
-    --sans-serif: "Roboto Condensed";
+    --sans2: "Roboto Condensed";
     --bg1: #dedede;
     --fg1: #222;
     --bg2: #222;
@@ -32,7 +31,7 @@
 body {
     background-color: var(--bg1);
     color: var(--fg1);
-    font-family: var(--serif);
+    font-family: var(--sans1);
     width: 100vw;
     height: 100vh;
     margin: 0;
@@ -51,6 +50,7 @@ body {
 header {
     background-color: var(--bg-c1);
     color: var(--fg1);
+    font-family: var(--sans2);
     height: 10vh;
     width: 100vw;
     display: flex;
@@ -93,15 +93,15 @@ nav ul li a:hover {
 main {
     position: absolute;
     top: 15vh;
-    padding: 0 5px 0 5px;
+    padding: 10px 25px 0 25px;
     width: 100vw;
     height: 80vh;
 }
 main>article>h3 {
-    font-family: var(--sans-serif), sans-serif;
+    font-family: var(--sans2), sans-serif;
 }
 main>article>p {
-    font-family: var(--serif), serif;
+    font-family: var(--sans1), serif;
     font-size: normal;
 }
 
