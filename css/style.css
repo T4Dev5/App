@@ -1,10 +1,10 @@
 @import url("https://fonts.google.com/css2?family=playfair+Display");
-@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed');
 
 /* Vars.css */
 :root {
     --serif: "Playfair Display";
-    --sans: "segoe ui";
+    --sans: "Roboto Condensed";
     --bg1: #dedede;
     --fg1: #222;
     --bg2: #222;
@@ -75,7 +75,8 @@ nav ul {
     list-style-type: none;
 }
 nav ul li {
-    height: 4vh;
+    margin: 0;
+    height: 5vh;
     width: 5vw;
     text-align: center;
     border-top: 1px var(--fg3) solid;
