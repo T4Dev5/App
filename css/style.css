@@ -92,29 +92,21 @@ nav ul li a:hover {
 }
 main {
     position: absolute;
-    top: 22.5vh;
+    top: 15vh;
     left: 0;
     width: 100vw;
     height: 80vh;
 }
-article h3 {
-    font-size: x-large;
-    font: bold italic;
-}
-article p {
-    font-family: var(--sans);
-    font-size: normal;
-    text-indent: 10px;
-}
+
 footer {
     background-color: var(--bg2);
     color: var(--fg2);
-    height: 7.5vh;
+    height: 5vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 92.5vh;
+    top: 95vh;
     left: 0;
 }
