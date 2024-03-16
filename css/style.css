@@ -1,10 +1,10 @@
 @import url("https://fonts.google.com/css2?family=playfair+Display");
-@import url("https://fonts.googleapis.com/css2?family=Inter");
+@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
 
 /* Vars.css */
 :root {
     --serif: "Playfair Display";
-    --sans: "Inter";
+    --sans: "segoe ui";
     --bg1: #dedede;
     --fg1: #222;
     --bg2: #222;
