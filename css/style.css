@@ -4,7 +4,7 @@
 /* Vars.css */
 :root {
     --serif: "Playfair Display";
-    --sans: "Roboto Condensed";
+    --sans-serif: "Roboto Condensed";
     --bg1: #dedede;
     --fg1: #222;
     --bg2: #222;
@@ -93,11 +93,17 @@ nav ul li a:hover {
 main {
     position: absolute;
     top: 15vh;
-    left: 0;
+    padding: 0 5px 0 5px;
     width: 100vw;
     height: 80vh;
 }
-
+main>article>h3 {
+    font-family: var(--sans-serif), sans-serif;
+}
+main>article>p {
+    font-family: var(--serif), serif;
+    font-size: normal;
+}
 footer {
     background-color: var(--bg2);
     color: var(--fg2);
