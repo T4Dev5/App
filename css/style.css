@@ -12,6 +12,7 @@
     --bg-c1: #0af;
     --bg3: #999;
     --fg3: #0ff;
+    --bg4: #99a;
 }
 @media(prefers-color-scheme:dark) {
     :root {
@@ -21,6 +22,7 @@
         --fg2: #222;
         --bg3: #007;
         --fg3: #ff0;
+        --bg4: #000075;
     }
 }
 /* Reset.css */
@@ -80,6 +82,7 @@ nav ul li a {
     text-decoration: none;
 }
 nav ul li a:hover {
+    background-color: var(--bg4);
     color: var(--fg3);
     display: block;
 }
